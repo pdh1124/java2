@@ -11,6 +11,7 @@ public class IntegerTest {
 		//int iVal = 12345678900;
 		long lVal = 2147483647;
 		long lVal1 = 9999999999L; //기준 이상값을때는 L을 넣어주는것이 좋다.
+		
 	}
 
 }
