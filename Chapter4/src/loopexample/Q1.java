@@ -4,7 +4,7 @@ public class Q1 {
 
 	public static void main(String[] args) {
 		// 1. 다이아몬드를 출력하기
-		int fullLine = 9;
+		int fullLine = 15;
 		int line = fullLine/2 + 1;
 		int star = 1;
 		int line2 = line;
