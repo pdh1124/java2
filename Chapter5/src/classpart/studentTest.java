@@ -15,5 +15,13 @@ public class studentTest {
 		//public void ShowStudentInfo() {}라는 사용할 수 있는 메소드
 		studentLee.ShowStudentInfo();
 		
+		Student studentKim = new Student();
+		studentKim.studentName = "김유신";
+		studentKim.address = "경주";
+		studentKim.ShowStudentInfo();
+		
+		
+		System.out.println(studentLee);
+		System.out.println(studentKim);
 	}
 }
