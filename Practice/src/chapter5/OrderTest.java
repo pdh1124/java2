@@ -19,12 +19,6 @@ public class OrderTest {
 		System.out.println("주문자 이름 : " + order.customerName);
 		System.out.println("주문 상품 번호 : " + order.productId);
 		System.out.println("배송 주소 : " + order.shoppingAddress);
-		
-		
-				
-		
-		
-		
 
 	}
 
