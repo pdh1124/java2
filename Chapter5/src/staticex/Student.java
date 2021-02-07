@@ -1,5 +1,13 @@
 package staticex;
 
+//static 메서드
+//static 변수를 위한 기능을 제공하는 static메서드
+//static 메서드에서는 인스턴스 변수를 사용할 수 없음
+//클래스 이름으로 참조하여 사용하는 메서드
+
+//Student.getSerialNum();
+
+//클래스 메서드, 정적 메서드라고도 함
 	
 public class Student { 
 
