@@ -53,7 +53,6 @@ class Print{
 		System.out.println("B");
 		System.out.println("B");
 	}
-	//...
 }
 
 public class MyOOP {
@@ -73,8 +72,5 @@ public class MyOOP {
 		Print.B();
 
 	}
-	
-	
-
 
 }
