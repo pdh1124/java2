@@ -44,7 +44,6 @@ public class staticMethod {
 		t2.a();
 		t2.b();
 		
-		
 		//Print.c("%");는 클래스 소속이기 때문에 static을 넣어야 한다.
 		Print.c("%");
 	}	
