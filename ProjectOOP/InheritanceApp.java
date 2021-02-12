@@ -9,7 +9,7 @@ class Cal{
 	}
 	//Overloading(세이브 파일명이 전부 똑같은 이름으로 되어있는 상태이지만 실제로는 세이브된 내용은 다름)
 	public int sum(int v1,int v2, int v3) {
-		return v1+v2+v3;
+		return this.sum(v1, v2)+ v3; //this는 자기자신의 sum에 있는 명령을 가져와 사용한다.
 	}
 }
 
@@ -21,11 +21,11 @@ class Cal3 extends Cal {
 	public int minus(int v1,int v2) {
 		return v1-v2;
 	}
-	//Cal이 가지고 있는 sum이라는 기능인 sum을 수정할 수 있다. (오버라이딩(Overriding)이라고 함)
+	//Cal이 가지고 있는 sum이라는 기능인 sum을 수정할 수 있다.(오버라이딩(Overriding)이라고 함)
 	//똑같은 형태의 메소드를 추가하고 수정함
 	public int sum(int v1,int v2) {
 		System.out.println("Cal3"); //구분을 위해
-		return v1+v2;
+		return super.sum(v1, v2); //super.sum(v1, v2);을 붙임으로써 부모 클래스Cal의 sum을 가르키게 됨
 	}
 }
 
