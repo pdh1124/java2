@@ -8,7 +8,7 @@ public class Company {
 	
 	private static Company instance = new Company();
 	
-	private Company() {}
+	private Company() {} //작성 해 두면 컴파일이 생성자를 제공해 줄일이 없다
 	
 	public static Company getInstance() {
 		
