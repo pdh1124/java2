@@ -4,6 +4,7 @@ public class StudentIDTest {
 
 	public static void main(String[] args) {
 		
+		
 		//Lee 학생 생성
 		Student studentLee = new Student("Lee");
 		System.out.println(Student.getSerialNum());

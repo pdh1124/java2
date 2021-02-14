@@ -17,5 +17,6 @@ public class Company {
 			
 		}
 		return instance;
+		
 	}
 }
