@@ -25,6 +25,9 @@ public class Customer {
 		this.customerID = customerID;
 		this.customerName = customerName;
 		
+		customerGrade = "SILVER"; //처음 등급은 실버
+		bonusRatio = 0.01;
+		
 		System.out.println("Customer(int, String) 생성자 호출");
 	}
 	//가격 계산하는 함수를 만듦

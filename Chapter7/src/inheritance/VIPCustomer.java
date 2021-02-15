@@ -37,4 +37,15 @@ public class VIPCustomer extends Customer {
 		
 		System.out.println("VIPCustomer(int, String) 생성자 호출");
 	}
+	
+	
+	@Override //애노테이션 : 컴파일러한테 이 메소드는 오버라이딩한 메소드라고 알려줌
+	public int calcPrice(int price) {
+		bonusPoint += price * bonusRatio;
+		return price - (int)(price * salesRatio); //할인된 가격을 반환한다.
+		//return super.calcPrice(price);
+	}
+	
+	
+	
 }
