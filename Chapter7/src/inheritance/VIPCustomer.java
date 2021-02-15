@@ -1,6 +1,7 @@
 package inheritance;
 
-public class VIPCustomer extends Customer { //extends Customer의 기능 상속
+public class VIPCustomer extends Customer { 
+//extends Customer의 기능 상속
 	
 	
 //	private int customerID; //고객 아이디
@@ -14,9 +15,26 @@ public class VIPCustomer extends Customer { //extends Customer의 기능 상속
 	double salesRatio; //할인률
 	private int agentID; //VIP고객 전담 담당 상담원
 	
+	/*
 	public VIPCustomer() {
+		
+		//super(); //상위클래스의 메모리 위치(this는 자기 자신을 불러낸다면 super는 상위클래스로 불러낸다)
+		
 		customerGrade = "VIP";
 		bonusRatio = 0.05;
 		salesRatio = 0.1;
+		
+		System.out.println("VIPCustomer() 생성자 호출");
+	}
+	*/
+	//생성자에서 super로 상위클래스에 있는 고객정보를 받는다.
+	public VIPCustomer(int customerID, String customerName) {
+		super(customerID, customerName); 
+
+		customerGrade = "VIP";
+		bonusRatio = 0.05;
+		salesRatio = 0.1;
+		
+		System.out.println("VIPCustomer(int, String) 생성자 호출");
 	}
 }

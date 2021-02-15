@@ -12,11 +12,21 @@ public class Customer {
 	
 	
 	//디폴트 컨스트럭트 = 초기화
+	/*기본 초기값을 설정 안해주고 생성자가 있으면 기본적으로 기본초기값을 제공해 주지 않음
 	public Customer() {
 		customerGrade = "SILVER"; //처음 등급은 실버
 		bonusRatio = 0.01;
+		
+		System.out.println("Customer() 생성자 호출");
 	}
-
+	*/
+	
+	public Customer(int customerID, String customerName) {
+		this.customerID = customerID;
+		this.customerName = customerName;
+		
+		System.out.println("Customer(int, String) 생성자 호출");
+	}
 	//가격 계산하는 함수를 만듦
 	public int calcPrice(int price/*가격을 받음*/) {
 		bonusPoint += price * bonusRatio; //보너스 포인트
