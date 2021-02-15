@@ -12,5 +12,6 @@ public class CardCompanyTest {
 		System.out.println(myCard.getCardNumber());    //10001  출력
 		System.out.println(yourCard.getCardNumber());  //10002  출력
 		
+		
 	}
 }
