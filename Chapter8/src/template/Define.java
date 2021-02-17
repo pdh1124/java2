@@ -2,6 +2,8 @@ package template;
 
 public class Define {
 	
+	
+	//static을 써서 메모리에 1번만 잡힘
 	public static final int MIN = 1;
 	public static final int MAX = 99999;
 	public static final int ENG = 1001;

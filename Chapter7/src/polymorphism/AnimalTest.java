@@ -56,7 +56,8 @@ public class AnimalTest {
 		Human human = (Human)hAnimal; //다운캐스팅을 해야 각각의 클래스마다 있는 메소드를 사용 가능하게 함
 		human.readBooks();
 		
-		/* instanceof는 오류 확인 법으로 다운캐스팅을 할때 자바가 오류를 잘 못잡음으로 한번 입력해서 오류가 있는지 확인하기
+		/* 
+		 * instanceof는 오류 확인 법으로 다운캐스팅을 할때 자바가 오류를 잘 못잡음으로 한번 입력해서 오류가 있는지 확인하기
 		if(hAnimal instanceof Human) {
 			Human human = (Human)hAnimal;
 			human.readBooks();
