@@ -29,6 +29,7 @@ public interface Calc {
 		return total;
 	}
 	
+	
 	//1.9 버전 이상 가능
 //	private void myMethod() {
 //		System.out.println("private method");
