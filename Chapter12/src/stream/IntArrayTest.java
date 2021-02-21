@@ -15,6 +15,11 @@ public class IntArrayTest {
 		System.out.println(sum);
 		System.out.println(count);
 		
+		
+		//redude() 연산을 사용
+		//Arrays.stream(arr) arr에 스트림을 생성하고
+		//reduce(초기값, (전달되는요소 a와 b) -> a와 b를 이용해 수행해야 할 기능)
+		System.out.println(Arrays.stream(arr).reduce(0, (a,b) -> a+b));
 	}
 
 }
