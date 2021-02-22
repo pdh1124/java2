@@ -15,6 +15,8 @@ public class ConsoleTest {
 		
 		System.out.println(name);
 		System.out.println(password);
+		
+		//cmd에 들어가서 구현 해야 함
 	}
 
 }
