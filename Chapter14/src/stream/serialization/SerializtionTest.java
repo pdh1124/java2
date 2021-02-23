@@ -7,7 +7,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
-class Person implements Serializable { //직렬화 가능하다는 
+class Person implements Serializable { //Serializable : 직렬화 가능하다는, Externalizable : 구현할 수 있는 메소드가 있음
 	String name;
 	transient String job; //transient 이 변수는 직렬화 하지 말아라
 	
