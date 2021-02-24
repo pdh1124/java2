@@ -33,7 +33,7 @@ public class TheadTest {
 		th1.start();
 		th2.start();
 		*/
-		
+		/*
 		MyThread runner1 = new MyThread();
 		Thread th1 = new Thread(runner1);
 		th1.start();
@@ -41,6 +41,10 @@ public class TheadTest {
 		MyThread runner2 = new MyThread();
 		Thread th2 = new Thread(runner2);
 		th2.start();
+		*/
+				
+		Thread t = Thread.currentThread(); //현재 main쓰레드를 가져 올 수 있다.
+		System.out.println(t); //Thread[main,5,main] => Thread[쓰레드 이름,우선 순의, 쓰레드가 어느 그룹에 속해있는지]
 		
 		
 		System.out.println("end");
